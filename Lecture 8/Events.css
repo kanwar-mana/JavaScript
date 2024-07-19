@@ -1,0 +1,26 @@
+/*div {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+    text-align: center;
+}*/
+
+#btn1 {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: rgb(220, 133, 18);
+    font-size: 15px;
+}
+
+.dark {
+    background-color: #262627;
+    color: white;
+}
+
+.light {
+    background-color: azure;
+    color: #262627;
+}

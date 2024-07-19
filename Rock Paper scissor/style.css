@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #d4a373;
+    height: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+#text {
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.box {
+    height: 160px;
+    width: 160px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 50px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+.box:hover {
+    border: 2px;
+    border-color: #778da9;
+}
+
+button img {
+    height: 120px;
+    width: 120px;
+}
+
+.move {
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    margin-top: 60px;
+    background-color: #778da9;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.move1 {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.two {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    margin-left: 110px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.human {
+    margin-left: 20px;
+}
+
+.Computer {
+    margin-left: 70px;
+}

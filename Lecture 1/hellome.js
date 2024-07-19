@@ -12,49 +12,52 @@ console.log(percentage);
 
 ///////*variable rules*//////
 
-analyserAli="kanwer";
-AnalyserAli="Ali";
-console.log(analyserAli+AnalyserAli);
+analyserAli = "kanwer";
+AnalyserAli = "Ali";
+console.log(analyserAli + AnalyserAli);
 
-$ali12=45;
+$ali12 = 45;
 console.log($ali12);
 
-let sust="kanwer";
-let id="nacromancer";
-let phone="03054418833";
-console.log(sust,id,phone);
+let sust = "kanwer";
+let id = "nacromancer";
+let phone = "03054418833";
+console.log(sust, id, phone);
 
-var kali=12;
-var kali=23;
-var kali=45;
+var kali = 12;
+var kali = 23;
+var kali = 45;
 console.log(kali);
 
-let baby=78;
-baby=34;
+let baby = 78;
+baby = 34;
 console.log(baby);
 
-const kareem=67;
+const kareem = 67;
 console.log(kareem);
 
 let hassi;
 console.log(hassi);
 
 const student = {
-    fullName:"Devworld",
-    age:20,
-    cgpa:3.2,
-    isPass:true,
+    fullName: "Devworld",
+    age: 20,
+    cgpa: 3.2,
+    isPass: true,
 };
-student["age"]=student["age"]+10;
+student["age"] = student["age"] + 10;
 console.log(student["age"]);
 console.log(student.isPass);
+student["age"] = student["age"] + 20;
+console.log(student["age"]);
+console.log(student.age);
 
-const pakistan= {
-    punjab : 2500,
-    sindh:300,
-    blochistan : 2300,
+const pakistan = {
+    punjab: 2500,
+    sindh: 300,
+    blochistan: 2300,
 };
 
 console.log(pakistan);
-pakistan["punjab"]=pakistan["punjab"]+20;
+pakistan["punjab"] = pakistan["punjab"] + 20;
 console.log(pakistan["punjab"]);

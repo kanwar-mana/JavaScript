@@ -1,0 +1,35 @@
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: solid black 1px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+#but {
+    margin-top: 10px;
+    height: 20px;
+    width: 50px;
+    background-color: rgb(74, 119, 158);
+    border: 0px;
+    border-radius: 20px;
+}
+
+#black {
+    margin-top: 10px;
+    height: 20px;
+    width: 50px;
+    background-color: rgb(173, 172, 146);
+    border: 0px;
+    border-radius: 20px;
+}
+
+.content {
+    background-color: blue;
+}
+
+.newcontent {
+    background-color: aqua;
+}
