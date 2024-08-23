@@ -25,7 +25,7 @@ const resetBt = () => {
     player0 = true;
     enBtn();
     newcontainer.classList.add("hide");
-}
+};
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
@@ -63,6 +63,13 @@ const showWinner = (winner) => {
     resetbtn.classList.add("hide");
     h1.classList.add("hide");
     body.classList.add("center");
+    newgame.addEventListener("click", () => {
+        resetBt();
+        con.classList.remove("hide");
+        h1.classList.remove("hide");
+        resetbtn.classList.remove("hide");
+        body.classList.remove("center");
+    });
 
     disBtn();
 };
@@ -82,6 +89,4 @@ const checkWinner = () => {
         }
     }
 };
-
-newgame.addEventListener("click", resetBt);
 resetbtn.addEventListener("click", resetBt);

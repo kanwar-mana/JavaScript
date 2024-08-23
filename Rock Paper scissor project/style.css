@@ -30,15 +30,15 @@
 .box {
     height: 160px;
     width: 160px;
-    border: none;
+    border: 0px;
     border-radius: 50%;
     margin-left: 50px;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
 .box:hover {
-    border: 2px;
-    border-color: #778da9;
+    border: 5px;
+    border-color: #d4a373;
 }
 
 button img {
@@ -53,10 +53,12 @@ button img {
     font-size: 16px;
     border: none;
     margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #778da9;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
@@ -75,12 +77,12 @@ button img {
 }
 
 .two {
+    margin-left: 120px;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 50px;
-    margin-left: 110px;
 }
 
 .score {

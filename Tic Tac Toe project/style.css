@@ -12,7 +12,7 @@ h1 {
 }
 
 body {
-    background-color: #659157;
+    background-color: #00b4d8;
     text-align: center;
 }
 
@@ -47,6 +47,7 @@ body {
 .reset {
     height: 8vmin;
     width: 20vmin;
+    background-color: #fb6f92;
     border: none;
     border-radius: 2rem;
     font-family: "Pacifico", cursive;
@@ -94,6 +95,7 @@ body {
 
 .center {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-top: 50vh;
 }
